@@ -1,0 +1,105 @@
+<div>
+<h1 id="skil">
+My Skills
+
+</h1>
+<br>
+<br>
+
+<div class="flex work">
+
+<div class="pad"><img src="cpp.png" height="100px"> <br><br>  C++   </div>
+<div class="pad"><img src="java.png" height="100px"> <br><br> JAVA   </div>
+<div class="pad"><img src="dbms.png" height="100px"><br><br> SQL    </div>
+<div class="pad"><img src="cn.png" height="100px"><br> <br>Computer Networking    </div></div>
+<br>
+<div class="flex work2">
+<div class="pad"><img src="html.png" height="100px">  <br><br> HTML  </div>
+<div class="pad"><img src="css.png" height="100px"> <br><br>CSS   </div>
+<div class="pad"><img src="js.png" height="100px"> <br><br>JavaScript   </div>
+
+
+</div>
+
+<br>
+<br>
+
+<div id="ss">
+<h1> SOFT SKILLS</h1>
+
+</div>
+
+
+
+
+<div class="flex" id="ss2">
+
+
+<div class="pad2">
+<ul>
+<li>
+<h2>
+    Team Work
+</h2>
+
+</li>
+
+<li>
+    <h2>
+        Problem Solving
+    </h2>
+    
+    </li>
+
+    <li>
+        <h2>
+            Creativity
+        </h2>
+        
+        </li>
+
+</ul>
+
+</div>
+
+<div class="pad2">
+    <ul>
+        <li>
+        <h2>
+            Adaptibility
+        </h2>
+        
+        </li>
+        
+        <li>
+            <h2>
+                Empathy
+            </h2>
+            
+            </li>
+        
+            <li>
+                <h2>
+                    Critical Thinking
+                </h2>
+                
+                </li>
+        
+        </ul>
+
+</div>
+
+
+</div >
+
+
+
+
+</div>
+
+
+
+
+
+
+

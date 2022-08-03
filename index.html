@@ -1,0 +1,108 @@
+<html>
+    <head>
+<title>Saurabh Sharma - Web developer</title>
+<link rel="stylesheet" href="style">
+<link href="http://fonts.cdnfonts.com/css/facon" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+    
+</head>
+    <body>
+                <div id="head" >
+                    <div class=" header">
+            <ul class="list" ><span id="s1">100rabh</span>
+<li><button class="btn" onclick="httpreq('about.txt')"> About Me</button></li>
+<li><button class="btn" onclick="httpreq('work.txt')">Skills</button></li>
+<li><button class="btn" onclick="httpreq('experience.txt')">Experience</button></li>
+<li><button class="btn" onclick="httpreq('contact.txt')">Contact Me</button></li>
+
+            </ul>
+            </div>
+            </div>
+
+            <div id="div2">
+            <div id="coverpic" class="flex">
+
+                <div id="d1">
+<br>
+                    <h1 id="heading">Hello, my<br> name's <span id="name">Saurabh .</span> <br>
+                    I'm a Web Developer.</h1>
+                    
+                    </div>
+
+                    <div id="d2">
+<img src="profile.png" height="300px">
+                    </div>
+
+
+            </div>
+            <div id="border"><br><p id="pro">Currently studying BE CSE at CHITKARA UNIVERSITY ,  Punjab </p></div>
+            
+<br>
+<div id="d3"><h1 id="about">About</h1>
+
+    <h2 id="abt">I'm Saurabh Sharma and currently I'm pursuing my Bachelors in Computer Science from Chitkara University ,Punjab .<br> I love to do programming and web designing and I'm interested in acquring new technical skills.<br>
+    I love the idea of experimenting with standard ways of problem solving and try to make it possible with new approach .
+    </h2>
+<br>
+<h2>Hobbies</h2>
+<h3>Sleeping , Sketching</h3>
+
+<br>
+<h2>Education</h2>
+<h3>I completed my schooling from DPS , Greater Noida in 2020 </h3>
+<h3>I am currently studying BE CSE from CHITKARA UNIVERSITY, PUNJAB (2020-2024)</h3>
+</div>
+<br>
+<br>
+<div id="socials">
+<div id="mail"><br><br><img src="email.png" height="30px" align="middle"><a href="mailto:saurabh2088.be20@chitkara.edu.in"> saurabh2088.be20@chitkara.edu.in</a><br><br>
+<div id="socials2">
+    <a href="https://www.facebook.com/profile.php?id=100009143012168"><img src="fb.png" height="70px"></a>
+    <a href="https://www.linkedin.com/in/saurabh-sharma-111635245/"> <img src="linked.png" height="70px"></a>
+        <a href="https://www.instagram.com/saurabhsharma02714?igshid=YmMyMTA2M2Y="> <img src="ig.png" height="70px"></a>
+            <a href="https://twitter.com/F6vSt">  <img src="twitter.png" height="70px"></a>
+                </div>
+</div><br>
+
+
+
+</div>
+
+</div>
+
+
+
+        <!-- <button onclick="httpreq()">Click Me!!!</button> --> 
+    </body>
+    <script>
+        var c=document.getElementById("div2");
+  
+  function httpreq(a){
+              var xhr = new XMLHttpRequest();
+              console.log(xhr);
+              xhr.onreadystatechange = function(){
+                  if(this.readyState == 4 && this.status == 200){
+                      c.innerHTML=this.responseText;
+                  }
+              }
+                  xhr.open("GET",a);
+                  xhr.send();
+                  
+              
+              
+          }
+  
+  
+          function sub(){
+var a=document.getElementById("i1").value;
+var b=document.getElementById("i2").value;
+var d="Hello "+a+" "+b+"! your response is recorded . We will get back to you . Have a good day!";
+alert(d);
+}
+  
+  
+  </script>
+</html>
